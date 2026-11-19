@@ -1,0 +1,501 @@
+customer_id,age_group,restaurant,allergen,dietary_preference,allergy_severity,privacy_consent,restaurant_data_sharing,marketing_opt_in,privacy_concern,visits_last_3_months,satisfaction_score
+FS0001,25-34,Restaurant A,Wheat,No restriction,Severe,Yes,Yes,No,High,2,5
+FS0002,55+,Restaurant A,Peanuts,No restriction,Severe,Yes,Yes,Yes,High,12,5
+FS0003,18-24,Restaurant B,Peanuts,Halal,Severe,Yes,No,No,Medium,3,2
+FS0004,35-44,Restaurant C,Tree nuts,Vegan,Severe,Yes,Yes,Yes,Low,12,4
+FS0005,55+,Restaurant C,Milk,Halal,Severe,Yes,Yes,Yes,Low,1,2
+FS0006,45-54,Restaurant C,Soy,No restriction,Moderate,No,No,No,High,6,2
+FS0007,18-24,Restaurant E,Peanuts,Vegetarian,Severe,Yes,No,Yes,High,4,2
+FS0008,55+,Restaurant B,Milk,Vegan,Severe,No,No,No,Medium,1,2
+FS0009,55+,Restaurant C,Fish,Vegan,Mild,Yes,Yes,No,Medium,11,4
+FS0010,35-44,Restaurant E,None,Vegetarian,None,Yes,Yes,No,High,7,3
+FS0011,18-24,Restaurant A,None,Vegetarian,None,Yes,Yes,Yes,Low,11,4
+FS0012,55+,Restaurant C,Eggs,Halal,Severe,Yes,No,No,Low,11,1
+FS0013,35-44,Restaurant A,Wheat,Gluten-free,Moderate,Yes,No,No,Medium,1,3
+FS0014,35-44,Restaurant E,Sesame,Vegetarian,Severe,Yes,Yes,Yes,Medium,3,5
+FS0015,45-54,Restaurant A,Tree nuts,Gluten-free,Mild,No,No,No,Medium,5,2
+FS0016,45-54,Restaurant A,None,Gluten-free,None,No,No,No,High,3,2
+FS0017,55+,Restaurant D,Wheat,Gluten-free,Mild,Yes,Yes,No,High,12,2
+FS0018,45-54,Restaurant E,Wheat,Halal,Moderate,No,No,No,Low,4,2
+FS0019,25-34,Restaurant A,None,No restriction,None,Yes,Yes,Yes,High,1,2
+FS0020,25-34,Restaurant C,None,No restriction,None,No,No,No,High,8,2
+FS0021,45-54,Restaurant B,Milk,Dairy-free,Moderate,No,No,No,Medium,4,1
+FS0022,18-24,Restaurant A,None,Halal,None,Yes,Yes,Yes,High,6,1
+FS0023,25-34,Restaurant C,None,Vegetarian,None,Yes,Yes,No,Low,8,5
+FS0024,18-24,Restaurant B,None,Dairy-free,None,No,No,No,Low,7,4
+FS0025,18-24,Restaurant D,Milk,Halal,Moderate,No,No,No,Medium,5,4
+FS0026,45-54,Restaurant B,Wheat,Dairy-free,Mild,No,No,No,Medium,4,1
+FS0027,18-24,Restaurant E,Eggs,Gluten-free,Moderate,Yes,Yes,No,High,3,1
+FS0028,18-24,Restaurant B,Sesame,No restriction,Moderate,No,No,No,Low,10,2
+FS0029,55+,Restaurant E,Eggs,No restriction,Severe,Yes,Yes,Yes,Medium,4,3
+FS0030,45-54,Restaurant C,None,Halal,None,Yes,Yes,No,Low,1,4
+FS0031,25-34,Restaurant E,Eggs,Gluten-free,Moderate,No,No,No,Low,6,1
+FS0032,55+,Restaurant C,Shellfish,Vegan,Severe,Yes,Yes,No,High,9,1
+FS0033,25-34,Restaurant C,Wheat,Gluten-free,Mild,Yes,Yes,No,High,9,2
+FS0034,35-44,Restaurant E,None,Gluten-free,None,Yes,Yes,No,Low,2,4
+FS0035,35-44,Restaurant B,Fish,No restriction,Severe,Yes,No,No,High,7,5
+FS0036,25-34,Restaurant E,None,No restriction,None,No,No,No,Low,6,5
+FS0037,18-24,Restaurant C,Eggs,Halal,Mild,Yes,Yes,No,High,2,3
+FS0038,25-34,Restaurant B,Soy,Halal,Mild,No,No,No,Medium,1,2
+FS0039,25-34,Restaurant C,Soy,Vegan,Mild,No,No,No,High,2,4
+FS0040,45-54,Restaurant C,Shellfish,Halal,Moderate,Yes,No,No,Low,4,1
+FS0041,35-44,Restaurant C,Wheat,Halal,Severe,Yes,No,No,High,9,3
+FS0042,55+,Restaurant C,Tree nuts,No restriction,Mild,No,No,No,Low,10,4
+FS0043,18-24,Restaurant D,Peanuts,Vegan,Severe,Yes,No,Yes,Low,12,4
+FS0044,25-34,Restaurant C,None,Gluten-free,None,Yes,No,No,High,6,5
+FS0045,35-44,Restaurant D,None,No restriction,None,Yes,Yes,Yes,High,5,5
+FS0046,25-34,Restaurant E,None,Halal,None,Yes,Yes,No,Medium,9,1
+FS0047,35-44,Restaurant D,None,Vegetarian,None,Yes,Yes,No,High,4,5
+FS0048,55+,Restaurant E,Milk,Dairy-free,Moderate,Yes,Yes,Yes,Low,11,3
+FS0049,45-54,Restaurant E,None,Vegetarian,None,Yes,Yes,No,Low,8,4
+FS0050,45-54,Restaurant D,Shellfish,Gluten-free,Mild,Yes,No,Yes,High,1,1
+FS0051,55+,Restaurant D,Soy,Vegetarian,Mild,Yes,No,No,Low,8,2
+FS0052,35-44,Restaurant D,Fish,Dairy-free,Severe,Yes,Yes,No,High,7,5
+FS0053,35-44,Restaurant B,Milk,Vegetarian,Severe,Yes,Yes,Yes,High,8,2
+FS0054,35-44,Restaurant C,None,No restriction,None,Yes,Yes,No,Low,3,2
+FS0055,45-54,Restaurant D,None,Dairy-free,None,Yes,Yes,Yes,Medium,7,1
+FS0056,18-24,Restaurant E,None,Halal,None,Yes,No,Yes,Low,6,3
+FS0057,55+,Restaurant B,Soy,Halal,Moderate,Yes,No,Yes,Medium,8,1
+FS0058,25-34,Restaurant D,Peanuts,Dairy-free,Mild,Yes,Yes,No,High,1,4
+FS0059,25-34,Restaurant D,Eggs,Dairy-free,Mild,Yes,Yes,Yes,Medium,6,2
+FS0060,45-54,Restaurant C,Milk,Vegan,Mild,No,No,No,Medium,1,5
+FS0061,18-24,Restaurant A,None,Vegan,None,Yes,Yes,No,Low,1,5
+FS0062,25-34,Restaurant D,None,Vegetarian,None,Yes,Yes,No,Medium,3,5
+FS0063,25-34,Restaurant C,Eggs,Dairy-free,Mild,Yes,No,No,Medium,10,4
+FS0064,25-34,Restaurant A,Peanuts,Dairy-free,Severe,Yes,Yes,No,High,10,1
+FS0065,45-54,Restaurant C,Fish,Gluten-free,Mild,No,No,No,High,11,3
+FS0066,35-44,Restaurant D,None,Halal,None,No,No,No,High,3,4
+FS0067,55+,Restaurant D,None,Gluten-free,None,No,No,No,Medium,7,5
+FS0068,45-54,Restaurant B,None,Vegetarian,None,No,No,No,Medium,10,5
+FS0069,25-34,Restaurant D,Wheat,Vegan,Mild,Yes,No,Yes,Medium,6,3
+FS0070,55+,Restaurant B,Shellfish,Dairy-free,Mild,No,No,No,Low,12,4
+FS0071,45-54,Restaurant D,Milk,Vegetarian,Mild,Yes,Yes,Yes,Low,7,2
+FS0072,35-44,Restaurant D,None,Gluten-free,None,Yes,Yes,No,High,6,3
+FS0073,25-34,Restaurant C,Wheat,Vegan,Mild,Yes,Yes,No,High,3,2
+FS0074,55+,Restaurant E,None,Halal,None,Yes,Yes,Yes,Low,4,3
+FS0075,25-34,Restaurant C,None,Vegetarian,None,Yes,No,Yes,Low,9,3
+FS0076,18-24,Restaurant A,Wheat,Vegetarian,Severe,Yes,No,Yes,Medium,8,3
+FS0077,18-24,Restaurant A,None,No restriction,None,Yes,No,Yes,Low,10,1
+FS0078,25-34,Restaurant A,None,Gluten-free,None,No,No,No,High,7,5
+FS0079,45-54,Restaurant D,Eggs,Gluten-free,Moderate,Yes,Yes,No,Medium,5,5
+FS0080,25-34,Restaurant B,Eggs,Gluten-free,Moderate,No,No,No,High,2,2
+FS0081,45-54,Restaurant E,None,Gluten-free,None,Yes,Yes,No,Low,4,3
+FS0082,25-34,Restaurant C,Wheat,Dairy-free,Severe,No,No,No,High,11,2
+FS0083,35-44,Restaurant B,Peanuts,Gluten-free,Mild,Yes,Yes,Yes,Medium,10,5
+FS0084,45-54,Restaurant C,Tree nuts,Halal,Severe,Yes,No,No,Medium,2,5
+FS0085,18-24,Restaurant A,None,Halal,None,Yes,Yes,Yes,High,10,5
+FS0086,25-34,Restaurant D,Tree nuts,Dairy-free,Severe,No,No,No,High,8,3
+FS0087,18-24,Restaurant D,None,Gluten-free,None,Yes,No,Yes,Medium,6,1
+FS0088,45-54,Restaurant E,Shellfish,Vegan,Mild,Yes,Yes,No,Medium,5,3
+FS0089,18-24,Restaurant E,None,Halal,None,No,No,No,Medium,7,1
+FS0090,45-54,Restaurant A,None,Vegan,None,Yes,Yes,Yes,High,3,3
+FS0091,55+,Restaurant B,Milk,Dairy-free,Severe,Yes,Yes,Yes,High,1,5
+FS0092,45-54,Restaurant A,Peanuts,Vegetarian,Severe,No,No,No,Low,8,3
+FS0093,45-54,Restaurant B,Milk,Vegan,Moderate,Yes,Yes,No,Medium,4,5
+FS0094,45-54,Restaurant C,Milk,Vegetarian,Severe,No,No,No,Medium,1,3
+FS0095,25-34,Restaurant D,Soy,Gluten-free,Severe,Yes,Yes,No,Medium,9,5
+FS0096,25-34,Restaurant E,Peanuts,Vegan,Moderate,No,No,No,Low,7,1
+FS0097,45-54,Restaurant B,None,Halal,None,Yes,No,No,Low,3,5
+FS0098,45-54,Restaurant A,Sesame,Vegan,Severe,No,No,No,Medium,1,2
+FS0099,35-44,Restaurant C,Peanuts,Dairy-free,Severe,No,No,No,High,7,1
+FS0100,35-44,Restaurant D,Shellfish,Dairy-free,Severe,No,No,No,Low,10,1
+FS0101,18-24,Restaurant D,None,Dairy-free,None,No,No,No,Low,11,1
+FS0102,35-44,Restaurant A,Milk,Dairy-free,Moderate,Yes,Yes,Yes,Medium,3,2
+FS0103,25-34,Restaurant A,Milk,Gluten-free,Severe,Yes,Yes,No,High,11,2
+FS0104,35-44,Restaurant D,Milk,Gluten-free,Moderate,Yes,Yes,No,Medium,5,5
+FS0105,35-44,Restaurant D,None,Halal,None,No,No,No,High,5,4
+FS0106,18-24,Restaurant B,Shellfish,Vegetarian,Moderate,No,No,No,High,6,5
+FS0107,45-54,Restaurant C,None,Dairy-free,None,Yes,No,Yes,High,12,1
+FS0108,35-44,Restaurant B,Tree nuts,Dairy-free,Severe,Yes,No,No,Low,11,2
+FS0109,25-34,Restaurant A,Eggs,Dairy-free,Severe,Yes,No,No,Medium,8,1
+FS0110,35-44,Restaurant D,Eggs,Dairy-free,Mild,Yes,No,Yes,High,6,5
+FS0111,45-54,Restaurant C,Milk,Vegan,Severe,No,No,No,Medium,2,4
+FS0112,45-54,Restaurant E,Sesame,Vegetarian,Moderate,Yes,Yes,Yes,Medium,1,3
+FS0113,35-44,Restaurant E,Milk,Halal,Moderate,Yes,No,No,Medium,2,2
+FS0114,55+,Restaurant B,Milk,Gluten-free,Severe,No,No,No,Low,11,4
+FS0115,18-24,Restaurant A,Tree nuts,Vegan,Moderate,Yes,Yes,No,Low,2,2
+FS0116,55+,Restaurant D,Shellfish,Vegetarian,Severe,Yes,Yes,No,Low,7,1
+FS0117,18-24,Restaurant C,Fish,Gluten-free,Mild,Yes,No,No,Low,6,1
+FS0118,35-44,Restaurant A,Sesame,Vegan,Moderate,Yes,No,Yes,Low,8,1
+FS0119,18-24,Restaurant C,Wheat,Dairy-free,Mild,Yes,No,No,High,4,1
+FS0120,25-34,Restaurant C,Fish,Gluten-free,Mild,Yes,Yes,No,High,1,3
+FS0121,25-34,Restaurant A,Shellfish,Vegetarian,Severe,No,No,No,Low,3,1
+FS0122,35-44,Restaurant A,Peanuts,Vegetarian,Mild,Yes,Yes,No,High,2,1
+FS0123,55+,Restaurant B,Milk,Vegan,Severe,Yes,Yes,Yes,High,9,3
+FS0124,45-54,Restaurant D,Milk,No restriction,Severe,Yes,Yes,Yes,High,8,1
+FS0125,35-44,Restaurant E,Tree nuts,Vegan,Severe,Yes,Yes,No,High,6,4
+FS0126,45-54,Restaurant A,Sesame,Gluten-free,Severe,Yes,Yes,Yes,High,11,5
+FS0127,45-54,Restaurant C,Soy,Vegetarian,Moderate,Yes,No,Yes,High,2,3
+FS0128,45-54,Restaurant A,Peanuts,Dairy-free,Mild,Yes,No,No,Low,7,1
+FS0129,55+,Restaurant E,Soy,Vegan,Severe,No,No,No,Medium,11,1
+FS0130,18-24,Restaurant C,Peanuts,Dairy-free,Severe,No,No,No,Medium,6,1
+FS0131,18-24,Restaurant C,Eggs,Vegetarian,Severe,Yes,Yes,Yes,Medium,10,2
+FS0132,55+,Restaurant E,Fish,Gluten-free,Mild,No,No,No,High,11,3
+FS0133,35-44,Restaurant C,None,Vegan,None,Yes,Yes,Yes,Low,10,4
+FS0134,55+,Restaurant B,None,Dairy-free,None,Yes,Yes,Yes,Medium,6,2
+FS0135,55+,Restaurant A,Peanuts,Dairy-free,Mild,Yes,No,Yes,High,1,1
+FS0136,45-54,Restaurant C,None,Dairy-free,None,Yes,Yes,Yes,High,2,3
+FS0137,55+,Restaurant C,Peanuts,Vegan,Mild,Yes,Yes,Yes,High,1,1
+FS0138,35-44,Restaurant C,None,Vegetarian,None,No,No,No,Low,1,4
+FS0139,25-34,Restaurant E,Soy,Vegetarian,Severe,Yes,Yes,No,Medium,2,4
+FS0140,18-24,Restaurant C,Shellfish,No restriction,Severe,Yes,Yes,No,Medium,12,4
+FS0141,55+,Restaurant D,None,Halal,None,Yes,Yes,No,Medium,2,4
+FS0142,18-24,Restaurant D,Shellfish,Vegetarian,Moderate,Yes,Yes,No,Low,6,2
+FS0143,35-44,Restaurant C,None,Dairy-free,None,Yes,Yes,No,High,3,2
+FS0144,18-24,Restaurant B,None,Vegan,None,Yes,Yes,No,High,8,4
+FS0145,55+,Restaurant E,Soy,Gluten-free,Moderate,Yes,No,No,High,6,2
+FS0146,35-44,Restaurant E,Milk,Halal,Mild,Yes,Yes,Yes,Low,5,4
+FS0147,18-24,Restaurant E,Milk,No restriction,Severe,Yes,Yes,No,Medium,10,5
+FS0148,55+,Restaurant B,Tree nuts,Dairy-free,Moderate,No,No,No,High,8,5
+FS0149,35-44,Restaurant A,None,No restriction,None,Yes,No,No,Low,1,2
+FS0150,35-44,Restaurant C,Wheat,Halal,Moderate,Yes,Yes,Yes,Medium,11,5
+FS0151,18-24,Restaurant E,None,Dairy-free,None,Yes,Yes,No,Medium,5,5
+FS0152,35-44,Restaurant C,Shellfish,Vegan,Severe,Yes,Yes,No,Medium,3,5
+FS0153,35-44,Restaurant B,Wheat,No restriction,Severe,Yes,Yes,No,High,11,5
+FS0154,35-44,Restaurant C,None,Dairy-free,None,Yes,Yes,Yes,Low,6,4
+FS0155,18-24,Restaurant E,None,Vegetarian,None,Yes,Yes,No,High,9,1
+FS0156,25-34,Restaurant B,Wheat,Gluten-free,Severe,Yes,Yes,No,Low,12,4
+FS0157,45-54,Restaurant E,None,Vegan,None,Yes,Yes,Yes,High,8,2
+FS0158,25-34,Restaurant C,Milk,Vegan,Severe,No,No,No,High,8,4
+FS0159,25-34,Restaurant B,Soy,Halal,Severe,Yes,Yes,Yes,Medium,1,4
+FS0160,55+,Restaurant A,Shellfish,Gluten-free,Moderate,No,No,No,Low,3,3
+FS0161,25-34,Restaurant D,Milk,Gluten-free,Moderate,Yes,Yes,No,Medium,1,4
+FS0162,25-34,Restaurant A,Milk,Vegetarian,Moderate,Yes,Yes,No,High,11,3
+FS0163,45-54,Restaurant B,Fish,Vegetarian,Severe,Yes,No,No,High,1,1
+FS0164,55+,Restaurant E,None,Vegetarian,None,No,No,No,Medium,2,3
+FS0165,55+,Restaurant D,None,No restriction,None,Yes,Yes,Yes,Medium,10,5
+FS0166,35-44,Restaurant D,None,Gluten-free,None,Yes,No,Yes,Medium,4,5
+FS0167,35-44,Restaurant A,Peanuts,Dairy-free,Severe,Yes,Yes,No,High,9,1
+FS0168,35-44,Restaurant C,Peanuts,Halal,Severe,Yes,Yes,Yes,Low,6,2
+FS0169,35-44,Restaurant B,Soy,Dairy-free,Mild,Yes,Yes,Yes,Medium,11,2
+FS0170,25-34,Restaurant B,Fish,Dairy-free,Mild,Yes,No,No,Medium,1,3
+FS0171,35-44,Restaurant E,None,Vegetarian,None,No,No,No,Medium,9,4
+FS0172,18-24,Restaurant C,None,Dairy-free,None,Yes,Yes,Yes,Medium,7,4
+FS0173,45-54,Restaurant C,Soy,Halal,Severe,Yes,Yes,Yes,Low,12,4
+FS0174,35-44,Restaurant C,None,Gluten-free,None,No,No,No,Low,2,3
+FS0175,25-34,Restaurant D,Wheat,Vegan,Moderate,Yes,No,No,High,6,5
+FS0176,18-24,Restaurant A,Sesame,Vegan,Severe,Yes,No,No,Medium,9,2
+FS0177,45-54,Restaurant A,Tree nuts,Vegetarian,Mild,No,No,No,Low,4,3
+FS0178,45-54,Restaurant C,Peanuts,Gluten-free,Moderate,Yes,Yes,No,Low,10,2
+FS0179,18-24,Restaurant A,Milk,Halal,Severe,Yes,Yes,Yes,High,7,5
+FS0180,55+,Restaurant C,None,Vegan,None,Yes,Yes,No,Medium,4,1
+FS0181,45-54,Restaurant A,None,No restriction,None,Yes,No,No,Medium,11,3
+FS0182,25-34,Restaurant B,Wheat,Gluten-free,Moderate,Yes,No,No,Low,4,2
+FS0183,35-44,Restaurant D,None,Halal,None,Yes,Yes,No,High,3,5
+FS0184,45-54,Restaurant E,Shellfish,No restriction,Moderate,Yes,No,No,High,2,2
+FS0185,55+,Restaurant C,Sesame,Dairy-free,Mild,Yes,Yes,No,High,11,5
+FS0186,18-24,Restaurant A,None,Vegetarian,None,Yes,No,No,Medium,3,2
+FS0187,55+,Restaurant C,Peanuts,Dairy-free,Mild,Yes,No,Yes,High,9,3
+FS0188,25-34,Restaurant E,None,Vegan,None,Yes,Yes,No,Low,3,5
+FS0189,18-24,Restaurant A,Soy,Gluten-free,Mild,Yes,No,Yes,High,10,3
+FS0190,45-54,Restaurant E,Wheat,Gluten-free,Moderate,Yes,Yes,No,Medium,8,2
+FS0191,18-24,Restaurant B,Fish,Dairy-free,Moderate,Yes,Yes,Yes,Medium,4,3
+FS0192,35-44,Restaurant D,Eggs,Vegan,Mild,No,No,No,Medium,9,5
+FS0193,25-34,Restaurant B,None,Vegetarian,None,Yes,Yes,Yes,Medium,7,5
+FS0194,35-44,Restaurant B,Peanuts,Vegetarian,Mild,No,No,No,Medium,9,4
+FS0195,45-54,Restaurant E,Milk,Vegan,Moderate,Yes,Yes,No,Low,10,3
+FS0196,45-54,Restaurant C,None,Vegan,None,Yes,No,No,Low,7,2
+FS0197,18-24,Restaurant D,Shellfish,Dairy-free,Mild,Yes,Yes,No,Low,6,5
+FS0198,35-44,Restaurant E,None,Halal,None,Yes,No,No,Low,3,1
+FS0199,25-34,Restaurant B,Peanuts,Vegan,Severe,Yes,Yes,No,High,1,1
+FS0200,45-54,Restaurant B,None,Dairy-free,None,Yes,Yes,No,High,3,3
+FS0201,35-44,Restaurant E,Tree nuts,Vegan,Moderate,Yes,No,No,High,9,4
+FS0202,35-44,Restaurant A,Wheat,Vegan,Moderate,Yes,Yes,No,High,12,1
+FS0203,55+,Restaurant E,Eggs,Vegan,Mild,No,No,No,High,1,5
+FS0204,45-54,Restaurant B,Milk,Gluten-free,Severe,Yes,Yes,Yes,High,12,1
+FS0205,25-34,Restaurant D,None,Halal,None,Yes,Yes,No,High,8,1
+FS0206,45-54,Restaurant E,Wheat,Gluten-free,Moderate,Yes,Yes,Yes,Low,8,5
+FS0207,35-44,Restaurant E,Peanuts,Vegan,Moderate,Yes,No,Yes,Low,5,5
+FS0208,45-54,Restaurant C,None,Vegan,None,No,No,No,Medium,6,5
+FS0209,55+,Restaurant D,Tree nuts,Dairy-free,Moderate,Yes,Yes,No,Low,5,1
+FS0210,35-44,Restaurant D,None,Dairy-free,None,Yes,No,Yes,High,5,5
+FS0211,25-34,Restaurant B,Wheat,Vegetarian,Mild,Yes,No,No,High,4,2
+FS0212,25-34,Restaurant A,None,Halal,None,Yes,Yes,No,Low,7,4
+FS0213,35-44,Restaurant A,Milk,Vegetarian,Mild,Yes,Yes,No,Low,9,1
+FS0214,18-24,Restaurant D,Tree nuts,Vegetarian,Moderate,Yes,No,Yes,High,5,1
+FS0215,35-44,Restaurant C,None,Gluten-free,None,Yes,No,No,High,9,5
+FS0216,25-34,Restaurant A,Milk,Vegetarian,Moderate,No,No,No,Low,12,4
+FS0217,35-44,Restaurant E,Wheat,Dairy-free,Severe,Yes,No,No,Low,10,4
+FS0218,18-24,Restaurant B,Fish,Gluten-free,Mild,Yes,Yes,No,Low,1,3
+FS0219,35-44,Restaurant E,Peanuts,Halal,Severe,Yes,No,No,Medium,11,3
+FS0220,25-34,Restaurant D,Wheat,No restriction,Severe,Yes,Yes,No,High,5,1
+FS0221,25-34,Restaurant D,Wheat,Vegan,Mild,Yes,Yes,No,High,6,4
+FS0222,25-34,Restaurant B,Wheat,Halal,Severe,Yes,No,No,Low,9,4
+FS0223,18-24,Restaurant E,Milk,Vegan,Severe,Yes,Yes,Yes,High,3,2
+FS0224,55+,Restaurant D,Peanuts,Gluten-free,Mild,Yes,No,No,Medium,1,4
+FS0225,45-54,Restaurant C,None,Halal,None,Yes,Yes,No,Medium,5,1
+FS0226,18-24,Restaurant E,Soy,Gluten-free,Mild,Yes,Yes,No,Low,8,1
+FS0227,45-54,Restaurant C,None,Vegetarian,None,No,No,No,Medium,8,4
+FS0228,25-34,Restaurant C,Peanuts,Dairy-free,Mild,No,No,No,Low,9,4
+FS0229,18-24,Restaurant C,Milk,Dairy-free,Moderate,No,No,No,High,12,5
+FS0230,35-44,Restaurant B,Peanuts,Halal,Moderate,No,No,No,Low,12,1
+FS0231,18-24,Restaurant B,None,Dairy-free,None,Yes,No,Yes,Low,10,1
+FS0232,18-24,Restaurant D,Milk,Dairy-free,Moderate,Yes,Yes,Yes,Low,1,2
+FS0233,55+,Restaurant C,Milk,Vegan,Severe,Yes,No,No,High,6,2
+FS0234,45-54,Restaurant C,None,Vegetarian,None,No,No,No,Medium,1,5
+FS0235,45-54,Restaurant E,Tree nuts,Dairy-free,Moderate,No,No,No,Low,6,4
+FS0236,35-44,Restaurant D,Soy,Vegan,Mild,Yes,Yes,No,Medium,4,2
+FS0237,18-24,Restaurant E,None,Dairy-free,None,Yes,Yes,Yes,Medium,9,5
+FS0238,18-24,Restaurant D,None,Vegetarian,None,Yes,Yes,No,Low,9,2
+FS0239,18-24,Restaurant B,None,Halal,None,Yes,Yes,No,High,12,5
+FS0240,18-24,Restaurant B,None,Vegetarian,None,No,No,No,Low,12,1
+FS0241,25-34,Restaurant D,Soy,Halal,Mild,No,No,No,High,6,3
+FS0242,35-44,Restaurant E,Peanuts,Gluten-free,Moderate,Yes,Yes,No,High,8,3
+FS0243,25-34,Restaurant B,Tree nuts,Vegan,Mild,Yes,Yes,Yes,High,10,4
+FS0244,25-34,Restaurant D,None,Vegetarian,None,Yes,Yes,No,High,6,3
+FS0245,45-54,Restaurant D,Soy,Halal,Mild,No,No,No,High,6,2
+FS0246,55+,Restaurant A,None,Gluten-free,None,Yes,No,No,Low,11,1
+FS0247,18-24,Restaurant B,Soy,Halal,Mild,Yes,Yes,Yes,Medium,6,1
+FS0248,45-54,Restaurant A,Eggs,Dairy-free,Mild,No,No,No,High,9,4
+FS0249,35-44,Restaurant A,None,Gluten-free,None,Yes,Yes,No,High,11,4
+FS0250,25-34,Restaurant B,Fish,Vegetarian,Mild,Yes,Yes,No,Medium,6,3
+FS0251,55+,Restaurant B,Fish,No restriction,Severe,Yes,Yes,Yes,High,2,1
+FS0252,18-24,Restaurant B,None,Halal,None,Yes,Yes,Yes,Medium,11,3
+FS0253,25-34,Restaurant B,Eggs,No restriction,Severe,No,No,No,High,8,3
+FS0254,55+,Restaurant E,None,No restriction,None,Yes,Yes,No,Low,6,1
+FS0255,45-54,Restaurant A,Sesame,Gluten-free,Moderate,Yes,No,Yes,Low,10,4
+FS0256,25-34,Restaurant A,Wheat,Gluten-free,Severe,Yes,No,No,Medium,1,1
+FS0257,55+,Restaurant D,Milk,No restriction,Moderate,Yes,No,Yes,Medium,8,4
+FS0258,55+,Restaurant D,None,Gluten-free,None,No,No,No,Low,10,3
+FS0259,45-54,Restaurant B,Fish,Dairy-free,Severe,Yes,Yes,Yes,Medium,2,1
+FS0260,18-24,Restaurant B,None,Vegan,None,Yes,No,Yes,Medium,8,5
+FS0261,55+,Restaurant A,Eggs,Halal,Severe,Yes,Yes,No,Medium,7,1
+FS0262,55+,Restaurant B,None,Halal,None,No,No,No,High,9,2
+FS0263,45-54,Restaurant B,Wheat,Vegetarian,Mild,Yes,Yes,Yes,Medium,7,3
+FS0264,45-54,Restaurant E,Milk,No restriction,Severe,Yes,No,Yes,Low,3,3
+FS0265,35-44,Restaurant D,None,Halal,None,Yes,Yes,Yes,High,10,2
+FS0266,35-44,Restaurant B,None,Gluten-free,None,No,No,No,Medium,6,3
+FS0267,25-34,Restaurant C,Soy,Dairy-free,Moderate,Yes,Yes,Yes,Medium,6,1
+FS0268,55+,Restaurant A,Tree nuts,Vegetarian,Severe,Yes,Yes,No,High,4,4
+FS0269,45-54,Restaurant D,Fish,Dairy-free,Mild,Yes,No,No,Low,5,2
+FS0270,45-54,Restaurant E,Wheat,Halal,Moderate,Yes,No,No,High,7,5
+FS0271,55+,Restaurant A,None,Vegan,None,Yes,No,Yes,Low,11,3
+FS0272,45-54,Restaurant C,None,Gluten-free,None,Yes,No,No,Medium,2,1
+FS0273,55+,Restaurant E,None,Vegetarian,None,Yes,Yes,Yes,Medium,7,4
+FS0274,18-24,Restaurant D,Soy,Gluten-free,Mild,Yes,Yes,Yes,Low,2,2
+FS0275,45-54,Restaurant C,Peanuts,Vegan,Moderate,Yes,Yes,Yes,High,12,4
+FS0276,18-24,Restaurant C,None,Vegan,None,Yes,No,No,High,3,2
+FS0277,45-54,Restaurant B,Milk,Gluten-free,Moderate,Yes,Yes,No,Low,11,4
+FS0278,55+,Restaurant D,Peanuts,Dairy-free,Moderate,Yes,Yes,Yes,Low,4,3
+FS0279,55+,Restaurant B,Soy,No restriction,Moderate,Yes,No,Yes,Medium,2,3
+FS0280,55+,Restaurant D,Wheat,Halal,Severe,Yes,Yes,Yes,Low,6,3
+FS0281,35-44,Restaurant E,Shellfish,Gluten-free,Severe,Yes,Yes,Yes,Low,6,1
+FS0282,55+,Restaurant D,None,No restriction,None,Yes,No,Yes,Low,10,4
+FS0283,25-34,Restaurant E,Peanuts,Halal,Mild,Yes,No,No,Low,3,3
+FS0284,18-24,Restaurant D,Shellfish,Gluten-free,Mild,Yes,Yes,Yes,Medium,9,5
+FS0285,45-54,Restaurant D,Wheat,Halal,Mild,Yes,Yes,Yes,Low,4,3
+FS0286,45-54,Restaurant E,None,Vegetarian,None,Yes,Yes,No,Medium,9,5
+FS0287,35-44,Restaurant E,None,No restriction,None,Yes,Yes,No,Low,12,4
+FS0288,25-34,Restaurant C,Eggs,Halal,Mild,Yes,No,No,Medium,2,4
+FS0289,55+,Restaurant C,Shellfish,No restriction,Severe,No,No,No,High,11,4
+FS0290,18-24,Restaurant E,None,Vegetarian,None,No,No,No,Medium,9,3
+FS0291,35-44,Restaurant E,Eggs,Vegetarian,Moderate,Yes,No,No,High,11,1
+FS0292,25-34,Restaurant B,None,Halal,None,No,No,No,Low,3,3
+FS0293,35-44,Restaurant D,Fish,Dairy-free,Moderate,Yes,Yes,No,High,2,4
+FS0294,45-54,Restaurant D,Milk,Vegan,Moderate,Yes,No,No,High,2,4
+FS0295,55+,Restaurant D,Wheat,Dairy-free,Mild,Yes,Yes,No,Low,8,3
+FS0296,55+,Restaurant D,Peanuts,Vegan,Moderate,Yes,Yes,No,Low,1,1
+FS0297,25-34,Restaurant D,Eggs,Halal,Moderate,Yes,No,Yes,Medium,4,2
+FS0298,35-44,Restaurant A,Shellfish,Vegan,Severe,Yes,No,Yes,Low,6,2
+FS0299,25-34,Restaurant D,None,Dairy-free,None,Yes,No,No,High,2,1
+FS0300,45-54,Restaurant A,None,No restriction,None,Yes,Yes,Yes,Medium,2,4
+FS0301,18-24,Restaurant A,Wheat,Halal,Moderate,Yes,Yes,Yes,Medium,3,4
+FS0302,18-24,Restaurant E,Soy,Vegetarian,Severe,Yes,Yes,Yes,High,3,4
+FS0303,45-54,Restaurant E,Peanuts,Vegetarian,Severe,Yes,Yes,No,Low,2,1
+FS0304,45-54,Restaurant C,None,No restriction,None,Yes,Yes,No,Low,5,1
+FS0305,18-24,Restaurant C,None,Gluten-free,None,Yes,Yes,Yes,High,9,2
+FS0306,25-34,Restaurant D,Soy,Vegan,Moderate,Yes,No,Yes,Medium,11,5
+FS0307,25-34,Restaurant D,None,No restriction,None,No,No,No,High,7,3
+FS0308,18-24,Restaurant A,Eggs,Vegetarian,Severe,No,No,No,Low,1,3
+FS0309,35-44,Restaurant E,None,No restriction,None,No,No,No,Medium,7,4
+FS0310,18-24,Restaurant C,None,Gluten-free,None,Yes,Yes,Yes,Low,3,5
+FS0311,18-24,Restaurant C,Peanuts,Gluten-free,Severe,Yes,No,No,Low,1,2
+FS0312,18-24,Restaurant C,None,Halal,None,Yes,Yes,No,High,12,2
+FS0313,45-54,Restaurant C,None,Dairy-free,None,Yes,Yes,No,High,5,2
+FS0314,18-24,Restaurant A,Peanuts,Dairy-free,Moderate,No,No,No,Medium,5,5
+FS0315,45-54,Restaurant D,None,Dairy-free,None,No,No,No,High,6,1
+FS0316,18-24,Restaurant E,Milk,Gluten-free,Severe,Yes,Yes,No,Low,12,5
+FS0317,45-54,Restaurant B,None,No restriction,None,Yes,Yes,Yes,Low,9,4
+FS0318,35-44,Restaurant A,None,Vegetarian,None,Yes,No,No,Low,9,1
+FS0319,18-24,Restaurant D,None,Gluten-free,None,No,No,No,Medium,5,3
+FS0320,55+,Restaurant C,None,Halal,None,Yes,Yes,No,Low,8,3
+FS0321,55+,Restaurant B,Eggs,Halal,Mild,No,No,No,Low,7,1
+FS0322,18-24,Restaurant C,None,Vegan,None,Yes,No,Yes,High,7,3
+FS0323,18-24,Restaurant B,None,Gluten-free,None,No,No,No,High,5,1
+FS0324,35-44,Restaurant D,None,Vegetarian,None,No,No,No,High,2,5
+FS0325,55+,Restaurant E,None,Vegetarian,None,Yes,Yes,Yes,High,3,2
+FS0326,35-44,Restaurant C,None,Vegan,None,No,No,No,Medium,5,2
+FS0327,18-24,Restaurant B,None,Vegetarian,None,Yes,No,Yes,Medium,8,3
+FS0328,45-54,Restaurant C,Peanuts,Gluten-free,Moderate,Yes,No,Yes,Low,2,2
+FS0329,18-24,Restaurant B,Fish,Vegan,Moderate,No,No,No,Low,2,2
+FS0330,35-44,Restaurant B,Sesame,Halal,Mild,Yes,Yes,No,Medium,9,5
+FS0331,18-24,Restaurant A,None,Halal,None,Yes,No,Yes,Low,3,2
+FS0332,18-24,Restaurant E,Fish,Vegan,Severe,Yes,No,Yes,Low,1,1
+FS0333,35-44,Restaurant A,None,Dairy-free,None,Yes,Yes,Yes,Medium,1,2
+FS0334,18-24,Restaurant D,Tree nuts,Halal,Severe,No,No,No,Medium,3,3
+FS0335,25-34,Restaurant A,None,Vegetarian,None,Yes,Yes,No,High,4,3
+FS0336,45-54,Restaurant B,Milk,Gluten-free,Moderate,Yes,Yes,Yes,High,4,5
+FS0337,55+,Restaurant D,Fish,Halal,Moderate,No,No,No,High,9,3
+FS0338,18-24,Restaurant C,Peanuts,Vegetarian,Mild,Yes,Yes,No,Medium,9,3
+FS0339,25-34,Restaurant C,Soy,Vegetarian,Severe,No,No,No,High,1,2
+FS0340,25-34,Restaurant B,Eggs,Halal,Mild,Yes,No,No,High,12,3
+FS0341,55+,Restaurant E,Tree nuts,No restriction,Mild,Yes,Yes,No,Low,8,5
+FS0342,55+,Restaurant B,None,Halal,None,Yes,Yes,Yes,Medium,1,3
+FS0343,25-34,Restaurant C,Tree nuts,Vegetarian,Mild,No,No,No,Low,3,5
+FS0344,35-44,Restaurant A,Wheat,Vegetarian,Moderate,No,No,No,High,11,4
+FS0345,25-34,Restaurant D,Eggs,Vegan,Severe,Yes,Yes,No,High,6,2
+FS0346,35-44,Restaurant B,Wheat,Gluten-free,Severe,Yes,No,No,Low,7,3
+FS0347,55+,Restaurant D,Soy,Vegan,Severe,Yes,No,Yes,High,6,5
+FS0348,35-44,Restaurant A,None,Gluten-free,None,Yes,Yes,Yes,Medium,3,1
+FS0349,45-54,Restaurant A,Fish,Dairy-free,Moderate,Yes,No,Yes,High,2,3
+FS0350,45-54,Restaurant D,None,No restriction,None,Yes,Yes,No,Medium,8,4
+FS0351,55+,Restaurant B,Peanuts,Halal,Mild,Yes,Yes,No,Low,5,1
+FS0352,45-54,Restaurant B,None,No restriction,None,Yes,Yes,No,High,2,3
+FS0353,45-54,Restaurant B,Eggs,Gluten-free,Severe,No,No,No,Medium,3,1
+FS0354,55+,Restaurant E,None,Vegetarian,None,No,No,No,Medium,11,3
+FS0355,45-54,Restaurant B,None,No restriction,None,Yes,Yes,Yes,Low,7,1
+FS0356,18-24,Restaurant A,None,Dairy-free,None,Yes,Yes,Yes,High,5,1
+FS0357,45-54,Restaurant C,Milk,No restriction,Mild,Yes,Yes,No,Medium,3,3
+FS0358,45-54,Restaurant D,Shellfish,Vegan,Moderate,Yes,Yes,Yes,Medium,10,1
+FS0359,35-44,Restaurant E,None,Dairy-free,None,Yes,Yes,Yes,High,4,5
+FS0360,55+,Restaurant D,None,Halal,None,No,No,No,High,4,4
+FS0361,55+,Restaurant E,None,Halal,None,No,No,No,High,10,5
+FS0362,25-34,Restaurant B,None,Halal,None,Yes,No,Yes,Medium,2,4
+FS0363,35-44,Restaurant A,None,Dairy-free,None,Yes,Yes,Yes,High,7,5
+FS0364,18-24,Restaurant E,Peanuts,Vegan,Severe,Yes,No,No,Medium,2,4
+FS0365,18-24,Restaurant A,None,Gluten-free,None,Yes,No,No,Low,5,5
+FS0366,55+,Restaurant E,Shellfish,Halal,Moderate,Yes,Yes,Yes,Medium,7,2
+FS0367,35-44,Restaurant B,Eggs,Dairy-free,Mild,Yes,Yes,No,Medium,6,1
+FS0368,18-24,Restaurant B,Peanuts,Vegan,Mild,Yes,No,Yes,High,8,3
+FS0369,45-54,Restaurant B,None,Halal,None,Yes,Yes,No,Medium,12,4
+FS0370,25-34,Restaurant A,Soy,Vegan,Moderate,No,No,No,High,9,4
+FS0371,25-34,Restaurant B,None,Gluten-free,None,No,No,No,Low,4,1
+FS0372,45-54,Restaurant E,Milk,Vegan,Moderate,Yes,Yes,No,Low,11,1
+FS0373,45-54,Restaurant E,None,Halal,None,Yes,Yes,No,Medium,3,3
+FS0374,18-24,Restaurant B,Soy,Dairy-free,Severe,Yes,Yes,No,Low,4,2
+FS0375,18-24,Restaurant D,Wheat,Vegan,Mild,Yes,Yes,No,High,1,2
+FS0376,35-44,Restaurant D,None,Vegan,None,Yes,No,No,Medium,8,3
+FS0377,45-54,Restaurant E,None,Vegan,None,Yes,No,Yes,High,11,3
+FS0378,18-24,Restaurant D,Eggs,Gluten-free,Mild,Yes,Yes,Yes,Medium,11,3
+FS0379,35-44,Restaurant B,Shellfish,Vegan,Mild,Yes,No,No,Low,1,5
+FS0380,45-54,Restaurant C,Peanuts,Vegan,Moderate,Yes,No,No,Medium,7,1
+FS0381,25-34,Restaurant E,Eggs,Gluten-free,Severe,No,No,No,Medium,11,3
+FS0382,25-34,Restaurant C,Milk,Vegetarian,Mild,No,No,No,Medium,3,3
+FS0383,35-44,Restaurant A,Soy,Gluten-free,Mild,No,No,No,Medium,4,3
+FS0384,45-54,Restaurant A,Peanuts,Vegan,Moderate,Yes,Yes,Yes,High,10,5
+FS0385,18-24,Restaurant D,Tree nuts,No restriction,Severe,Yes,Yes,Yes,Low,3,2
+FS0386,45-54,Restaurant B,Sesame,Vegan,Moderate,Yes,Yes,No,Low,2,4
+FS0387,45-54,Restaurant C,Peanuts,Vegetarian,Mild,Yes,Yes,No,Low,10,2
+FS0388,45-54,Restaurant D,Milk,No restriction,Moderate,Yes,Yes,No,Medium,1,1
+FS0389,35-44,Restaurant E,Milk,Dairy-free,Mild,Yes,Yes,Yes,Low,11,2
+FS0390,55+,Restaurant E,None,Vegan,None,Yes,Yes,Yes,Low,1,3
+FS0391,35-44,Restaurant D,Tree nuts,Halal,Severe,Yes,Yes,No,Medium,8,3
+FS0392,45-54,Restaurant A,Soy,Vegetarian,Mild,No,No,No,Low,12,2
+FS0393,35-44,Restaurant A,None,No restriction,None,Yes,Yes,Yes,High,5,5
+FS0394,18-24,Restaurant A,Eggs,Gluten-free,Severe,No,No,No,Low,7,4
+FS0395,25-34,Restaurant A,Peanuts,Gluten-free,Moderate,Yes,No,No,Low,11,5
+FS0396,18-24,Restaurant E,None,Gluten-free,None,Yes,Yes,No,Low,5,1
+FS0397,35-44,Restaurant E,Soy,Halal,Mild,Yes,Yes,Yes,Medium,5,2
+FS0398,45-54,Restaurant C,None,Halal,None,No,No,No,Low,1,1
+FS0399,25-34,Restaurant A,Wheat,No restriction,Severe,No,No,No,Low,12,1
+FS0400,35-44,Restaurant C,Tree nuts,Dairy-free,Moderate,Yes,No,Yes,Low,1,3
+FS0401,18-24,Restaurant A,Peanuts,Dairy-free,Mild,Yes,No,No,High,11,2
+FS0402,18-24,Restaurant C,Peanuts,Halal,Moderate,No,No,No,Low,2,4
+FS0403,45-54,Restaurant D,Peanuts,Halal,Severe,Yes,Yes,No,Low,2,2
+FS0404,18-24,Restaurant D,Wheat,No restriction,Severe,No,No,No,Medium,10,4
+FS0405,25-34,Restaurant D,None,Halal,None,No,No,No,Medium,2,4
+FS0406,55+,Restaurant E,Milk,No restriction,Severe,Yes,Yes,No,High,6,5
+FS0407,25-34,Restaurant D,Milk,Dairy-free,Moderate,Yes,Yes,No,High,7,2
+FS0408,18-24,Restaurant B,Fish,Gluten-free,Severe,No,No,No,Medium,8,2
+FS0409,35-44,Restaurant A,None,Halal,None,Yes,Yes,No,High,11,4
+FS0410,55+,Restaurant D,Peanuts,Vegetarian,Mild,Yes,Yes,No,Medium,6,1
+FS0411,45-54,Restaurant A,Sesame,Dairy-free,Severe,Yes,Yes,No,Low,10,5
+FS0412,45-54,Restaurant C,Wheat,Gluten-free,Moderate,Yes,Yes,No,Low,8,3
+FS0413,35-44,Restaurant D,Eggs,Gluten-free,Mild,Yes,No,Yes,High,4,1
+FS0414,55+,Restaurant C,Peanuts,Dairy-free,Severe,No,No,No,Low,1,2
+FS0415,35-44,Restaurant E,Milk,Dairy-free,Mild,Yes,Yes,Yes,Medium,4,4
+FS0416,45-54,Restaurant A,Fish,Vegetarian,Severe,Yes,Yes,No,High,2,4
+FS0417,45-54,Restaurant A,Milk,Gluten-free,Severe,No,No,No,High,1,5
+FS0418,25-34,Restaurant E,Tree nuts,Gluten-free,Mild,Yes,Yes,No,Low,2,4
+FS0419,45-54,Restaurant D,Wheat,Gluten-free,Severe,No,No,No,High,4,3
+FS0420,25-34,Restaurant B,Peanuts,Vegan,Moderate,No,No,No,High,12,5
+FS0421,55+,Restaurant B,None,Dairy-free,None,Yes,Yes,Yes,High,12,3
+FS0422,25-34,Restaurant E,Wheat,Dairy-free,Severe,Yes,No,No,Medium,12,1
+FS0423,45-54,Restaurant E,Soy,Gluten-free,Moderate,Yes,Yes,No,Medium,1,5
+FS0424,25-34,Restaurant C,None,Halal,None,Yes,Yes,No,Low,5,3
+FS0425,55+,Restaurant A,None,No restriction,None,Yes,Yes,Yes,Medium,2,5
+FS0426,55+,Restaurant D,Shellfish,Dairy-free,Mild,Yes,Yes,No,High,5,1
+FS0427,35-44,Restaurant E,Tree nuts,Halal,Mild,Yes,No,Yes,Medium,4,5
+FS0428,35-44,Restaurant E,Shellfish,Halal,Severe,No,No,No,High,10,2
+FS0429,18-24,Restaurant B,Soy,Vegetarian,Mild,Yes,Yes,No,Low,7,1
+FS0430,35-44,Restaurant A,Peanuts,Gluten-free,Moderate,Yes,Yes,No,Low,1,2
+FS0431,55+,Restaurant C,Tree nuts,Gluten-free,Moderate,Yes,No,No,High,6,1
+FS0432,55+,Restaurant A,Soy,Vegan,Severe,Yes,No,Yes,High,9,4
+FS0433,35-44,Restaurant C,None,Vegetarian,None,No,No,No,Medium,4,5
+FS0434,18-24,Restaurant A,Milk,Gluten-free,Severe,No,No,No,Medium,8,2
+FS0435,18-24,Restaurant C,Tree nuts,Gluten-free,Moderate,No,No,No,Low,7,3
+FS0436,35-44,Restaurant E,Eggs,Vegan,Severe,Yes,Yes,No,Low,5,2
+FS0437,55+,Restaurant E,Peanuts,No restriction,Mild,No,No,No,High,2,2
+FS0438,18-24,Restaurant B,Wheat,Vegetarian,Severe,No,No,No,High,12,4
+FS0439,45-54,Restaurant C,Wheat,No restriction,Mild,Yes,Yes,Yes,Low,3,3
+FS0440,45-54,Restaurant D,Eggs,Gluten-free,Moderate,No,No,No,High,7,4
+FS0441,55+,Restaurant A,None,Halal,None,Yes,Yes,No,High,1,1
+FS0442,35-44,Restaurant E,Peanuts,Gluten-free,Mild,Yes,No,Yes,Medium,7,4
+FS0443,25-34,Restaurant D,Fish,No restriction,Severe,Yes,Yes,Yes,High,3,3
+FS0444,18-24,Restaurant E,Wheat,Dairy-free,Severe,Yes,No,Yes,Low,1,5
+FS0445,25-34,Restaurant C,Eggs,Gluten-free,Mild,Yes,Yes,Yes,High,9,2
+FS0446,18-24,Restaurant B,None,Vegetarian,None,Yes,Yes,No,High,1,5
+FS0447,35-44,Restaurant A,Milk,Gluten-free,Mild,Yes,Yes,No,Medium,6,3
+FS0448,18-24,Restaurant B,None,Dairy-free,None,Yes,Yes,Yes,Medium,6,5
+FS0449,35-44,Restaurant C,Wheat,Dairy-free,Moderate,Yes,Yes,Yes,Medium,4,2
+FS0450,25-34,Restaurant C,Wheat,Dairy-free,Moderate,Yes,No,No,Medium,5,4
+FS0451,35-44,Restaurant B,Eggs,Vegetarian,Severe,Yes,Yes,Yes,High,11,1
+FS0452,55+,Restaurant E,Soy,No restriction,Moderate,No,No,No,High,4,1
+FS0453,25-34,Restaurant C,Eggs,Gluten-free,Moderate,No,No,No,Low,10,3
+FS0454,55+,Restaurant A,None,Gluten-free,None,Yes,Yes,No,High,11,2
+FS0455,55+,Restaurant B,Soy,Vegetarian,Severe,Yes,Yes,No,Medium,1,2
+FS0456,18-24,Restaurant B,Soy,Vegetarian,Severe,Yes,Yes,No,Medium,7,4
+FS0457,18-24,Restaurant E,Tree nuts,No restriction,Severe,Yes,Yes,No,High,5,5
+FS0458,55+,Restaurant A,Eggs,Vegetarian,Severe,Yes,Yes,Yes,Low,9,4
+FS0459,55+,Restaurant A,Peanuts,Vegan,Severe,Yes,Yes,No,Medium,3,2
+FS0460,25-34,Restaurant C,None,Dairy-free,None,Yes,Yes,No,Low,11,2
+FS0461,45-54,Restaurant D,Peanuts,Vegan,Mild,Yes,Yes,No,High,7,1
+FS0462,55+,Restaurant A,None,Vegetarian,None,Yes,Yes,No,Low,1,2
+FS0463,55+,Restaurant A,None,Vegetarian,None,Yes,Yes,No,High,11,3
+FS0464,45-54,Restaurant B,Tree nuts,Vegetarian,Mild,Yes,No,No,High,3,5
+FS0465,25-34,Restaurant C,Fish,Vegetarian,Moderate,Yes,Yes,No,Low,4,4
+FS0466,55+,Restaurant D,Peanuts,No restriction,Mild,Yes,Yes,No,Low,8,5
+FS0467,45-54,Restaurant B,Eggs,Gluten-free,Severe,Yes,Yes,No,Low,11,4
+FS0468,45-54,Restaurant B,Milk,Vegan,Moderate,No,No,No,Medium,6,5
+FS0469,35-44,Restaurant D,Fish,Dairy-free,Mild,Yes,Yes,No,Low,5,5
+FS0470,18-24,Restaurant E,Shellfish,Halal,Severe,Yes,Yes,Yes,Low,7,2
+FS0471,45-54,Restaurant E,Wheat,Vegan,Moderate,Yes,Yes,Yes,High,7,5
+FS0472,25-34,Restaurant D,Peanuts,Vegan,Severe,No,No,No,High,8,2
+FS0473,55+,Restaurant C,Peanuts,Gluten-free,Severe,Yes,No,Yes,Low,11,1
+FS0474,18-24,Restaurant B,Soy,Halal,Severe,No,No,No,Medium,6,5
+FS0475,18-24,Restaurant A,Eggs,Dairy-free,Mild,Yes,Yes,No,High,7,1
+FS0476,45-54,Restaurant D,None,Vegetarian,None,Yes,Yes,No,High,5,5
+FS0477,25-34,Restaurant E,None,Vegetarian,None,Yes,Yes,Yes,Low,10,5
+FS0478,35-44,Restaurant B,Milk,Vegetarian,Severe,Yes,Yes,Yes,Low,2,3
+FS0479,25-34,Restaurant E,Soy,Vegan,Mild,Yes,Yes,No,Low,2,5
+FS0480,35-44,Restaurant B,None,Gluten-free,None,No,No,No,High,4,4
+FS0481,55+,Restaurant A,Tree nuts,Gluten-free,Severe,Yes,Yes,Yes,Medium,6,1
+FS0482,55+,Restaurant C,Fish,Vegan,Severe,No,No,No,Medium,7,5
+FS0483,45-54,Restaurant D,Milk,Vegetarian,Severe,Yes,No,No,Medium,2,3
+FS0484,25-34,Restaurant C,None,Dairy-free,None,No,No,No,Medium,6,5
+FS0485,18-24,Restaurant D,Milk,Dairy-free,Severe,No,No,No,High,6,1
+FS0486,55+,Restaurant C,Eggs,Vegetarian,Mild,Yes,Yes,No,High,4,4
+FS0487,25-34,Restaurant B,Soy,Vegetarian,Mild,Yes,No,No,High,6,2
+FS0488,45-54,Restaurant E,Soy,No restriction,Mild,No,No,No,High,1,4
+FS0489,55+,Restaurant C,Peanuts,Vegan,Moderate,Yes,No,Yes,High,5,4
+FS0490,45-54,Restaurant D,None,Gluten-free,None,Yes,Yes,No,Low,9,3
+FS0491,18-24,Restaurant E,Peanuts,Dairy-free,Moderate,No,No,No,Medium,12,1
+FS0492,35-44,Restaurant E,None,Vegetarian,None,Yes,Yes,No,Low,9,3
+FS0493,25-34,Restaurant D,None,Halal,None,No,No,No,Medium,4,4
+FS0494,45-54,Restaurant B,Wheat,Vegan,Severe,Yes,Yes,Yes,High,11,2
+FS0495,45-54,Restaurant D,Fish,Dairy-free,Mild,Yes,Yes,Yes,High,3,4
+FS0496,55+,Restaurant E,Fish,Vegetarian,Severe,Yes,Yes,Yes,Medium,5,3
+FS0497,25-34,Restaurant A,Eggs,Gluten-free,Mild,Yes,Yes,No,Medium,11,1
+FS0498,55+,Restaurant C,Milk,Vegan,Moderate,Yes,Yes,Yes,Low,6,5
+FS0499,35-44,Restaurant C,None,Gluten-free,None,Yes,Yes,Yes,High,8,4
+FS0500,25-34,Restaurant B,Shellfish,Halal,Severe,Yes,Yes,No,Medium,7,5
